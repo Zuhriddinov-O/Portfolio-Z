@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css"
-import Myphoto from "../images/Myphoto.jpg"
+import myphoto from "../images/myphoto.jpg"
 import telegram from "../images/telegram.png"
 import instagram from "../images/instagram.png"
 import youtube from "../images/youtube.png"
@@ -27,7 +27,7 @@ const About = () => {
             <button className="script">Java Script</button>
             <button className="react">React Java Script</button>
           </div>
-          <img className="myphoto" src={Myphoto} alt="" />
+          <img className="myphoto" src={myphoto} alt="" />
 
           <div className="link">
             <h4>@Leader_02_02</h4>
