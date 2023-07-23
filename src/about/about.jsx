@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css"
 import Myphoto from "../images/Myphoto.jpg"
-import Myphoto2 from "../images/Myphoto2.jpg"
 import telegram from "../images/telegram.png"
 import instagram from "../images/instagram.png"
 import youtube from "../images/youtube.png"
