@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css"
-import zIndex from "@mui/material/styles/zIndex";
+// import zIndex from "@mui/material/styles/zIndex";
 
 const Navbar = () => {
     return (
