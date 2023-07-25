@@ -18,7 +18,10 @@ const About = () => {
     <>
       <React.Fragment>
         <div className="container2">
-          <div className="name2"> <h2>Oybek Zuhriddinov </h2></div>
+          <div className="name2">
+            <h2 className="name2__h2-1">Oybek</h2>
+            <h2 className="name2__h2-2">Zuhriddinov</h2>
+          </div>
           <div className="p">
             <p>Available experiences:</p>
           </div><br />
