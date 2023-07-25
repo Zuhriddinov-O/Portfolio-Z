@@ -188,75 +188,75 @@ button {
     font-size      : 14px;
 }
 
-.Uniconimg {
+.uniconimg {
     margin-top: 10px;
     width     : 220px;
     height    : 150px;
     box-shadow: none;
 }
 
-.Uniconimg:hover {
+.uniconimg:hover {
     box-shadow: 0px 0px 0px 1px grey;
     transition: 0.3s;
 }
 
-.Uniconimg__href {
+.uniconimg__href {
     display       : flex;
     width         : 421px;
     flex-direction: column;
 }
 
-.UniconP {
+.uniconP {
+    display        : flex;
+    justify-content: center
+}
+
+.univerMilan {
+    margin-top: 10px;
+    width     : 220px;
+    height    : 150px;
+    box-shadow: none;
+}
+
+.univerMilan:hover {
+    box-shadow: 0px 0px 0px 1px grey;
+    transition: 0.3s;
+}
+
+.univerMilan__href {
+    display       : flex;
+    width         : 421px;
+    flex-direction: column;
+}
+
+.univerMilanP {
     display        : flex;
     justify-content: center;
 }
 
-.UniverMilan {
+
+
+
+
+.milanglavnoeimg {
     margin-top: 10px;
     width     : 220px;
     height    : 150px;
     box-shadow: none;
 }
 
-.UniverMilan:hover {
+.milanglavnoeimg:hover {
     box-shadow: 0px 0px 0px 1px grey;
     transition: 0.3s;
 }
 
-.UniverMilan__href {
+.milanglavnoeimg__href {
     display       : flex;
     width         : 421px;
     flex-direction: column;
 }
 
-.UniverMilanP {
-    display        : flex;
-    justify-content: center;
-}
-
-
-
-
-
-.Milanglavnoeimg {
-    margin-top: 10px;
-    width     : 220px;
-    height    : 150px;
-    box-shadow: none;
-}
-
-.Milanglavnoeimg:hover {
-    box-shadow: 0px 0px 0px 1px grey;
-    transition: 0.3s;
-}
-
-.Milanglavnoeimg__href {
-    display       : flex;
-    width         : 421px;
-    flex-direction: column;
-}
-
-.MilanglavnoeimgP {
+.milanglavnoeimgP {
     display        : flex;
     justify-content: center;
 }

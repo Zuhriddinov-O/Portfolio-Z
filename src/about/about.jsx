@@ -52,16 +52,16 @@ const About = () => {
           <p className="p2">Here is some of my Projects i have done when i was learning</p>
 
           <div className="projects">
-            <a className="Uniconimg__href" href="https://unicon-latest2.vercel.app">
-              <img className="Uniconimg" src={Uniconimg} alt="" /><p className="UniconP">Unicon</p>
+            <a className="uniconimg__href" href="https://unicon-latest2.vercel.app">
+              <img className="uniconimg" src={Uniconimg} alt="" /><p className="uniconP">Unicon</p>
             </a>
 
-            <a className="UniverMilan__href" href="https://univer-milan-oz96.vercel.app">
-              <img className="UniverMilan" src={UniverMilan} alt="" /><p className="UniverMilanP">UniverMilan</p>
+            <a className="univerMilan__href" href="https://univer-milan-oz96.vercel.app">
+              <img className="univerMilan" src={UniverMilan} alt="" /><p className="univerMilanP">UniverMilan</p>
             </a>
 
-            <a className="Milanglavnoeimg__href" href="https://milan-glavnoe.vercel.app">
-              <img className="Milanglavnoeimg" src={Milanglavnoeimg} alt="" /><p className="MilanglavnoeimgP">Milan-Glavnoe</p>
+            <a className="milanglavnoeimg__href" href="https://milan-glavnoe.vercel.app">
+              <img className="milanglavnoeimg" src={Milanglavnoeimg} alt="" /><p className="milanglavnoeimgP">Milan-Glavnoe</p>
             </a>
           </div>
         </div>
