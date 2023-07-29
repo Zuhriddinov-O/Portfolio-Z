@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css"
+import { Link } from "react-router-dom";
 // import zIndex from "@mui/material/styles/zIndex";
 
 const Navbar = () => {
@@ -16,8 +17,8 @@ const Navbar = () => {
                     height: "100px",
                     width:"90%",
                 }}>
-                    <a clasName="a1" href="/">Home</a>
-                    <a clasName="a2" href="/about" style={{ margin: "0px 0px 0px 50px" }}>About</a>
+                    <Link clasName="a1" to="/">Home</Link>
+                    <Link clasName="a2" to="/about" style={{ margin: "0px 0px 0px 50px" }}>About</Link>
                 </div>
 
             </React.Fragment >
