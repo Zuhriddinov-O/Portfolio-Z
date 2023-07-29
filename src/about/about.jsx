@@ -61,7 +61,7 @@ const About = () => {
               <img className="univerMilan" src={UniverMilan} alt="" /><p className="univerMilanP">UniverMilan</p>
             </Link>
 
-            <Link className="milanglavnoeimg__href" to="https://milan-glavnoe-page-2658.vercel.app">
+            <Link className="milanglavnoeimg__href" to="https://milan-glavnoe.vercel.app">
               <img className="milanglavnoeimg" src={Milanglavnoeimg} alt="" /><p className="milanglavnoeimgP">Milan-Glavnoe</p>
             </Link>
           </div>
