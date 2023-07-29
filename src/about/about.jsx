@@ -10,6 +10,7 @@ import twitter from "../images/twitter.png"
 import Uniconimg from "../images/Uniconimg.jpg"
 import UniverMilan from "../images/UniverMilan.jpg"
 import Milanglavnoeimg from "../images/Milanglavnoeimg.jpg"
+import { Link } from "react-router-dom";
 
 
 
@@ -52,17 +53,17 @@ const About = () => {
           <p className="p2">Here is some of my Projects i have done when i was learning</p>
 
           <div className="projects">
-            <a className="uniconimg__href" href="https://unicon-latest2.vercel.app">
+            <Link className="uniconimg__href" to="https://unicon-latest2.vercel.app">
               <img className="uniconimg" src={Uniconimg} alt="" /><p className="uniconP">Unicon</p>
-            </a>
+            </Link>
 
-            <a className="univerMilan__href" href="https://univer-milan-oz96.vercel.app">
+            <Link className="univerMilan__href" to="https://milan-glavnoe-page-2658.vercel.app">
               <img className="univerMilan" src={UniverMilan} alt="" /><p className="univerMilanP">UniverMilan</p>
-            </a>
+            </Link>
 
-            <a className="milanglavnoeimg__href" href="https://milan-glavnoe-page-2658.vercel.app">
+            <Link className="milanglavnoeimg__href" to="https://milan-glavnoe-page-2658.vercel.app">
               <img className="milanglavnoeimg" src={Milanglavnoeimg} alt="" /><p className="milanglavnoeimgP">Milan-Glavnoe</p>
-            </a>
+            </Link>
           </div>
         </div>
       </React.Fragment>
